@@ -76,7 +76,8 @@ app.controller('MainCtrl', [
                                         },
                                         points: {
                                             show: true
-                                        }
+                                        },
+                                        color: "#191970",
                                     },
                                     axisLabels: {
                                         show: true
@@ -99,7 +100,8 @@ app.controller('MainCtrl', [
                                         axisLabelPadding: 5
                                     },
                                     grid: {
-                                        color: "#800"
+                                        color: "#800",
+                                        backgroundColor: "#FFE4E1",
                                     },
                                 };
                             }
@@ -115,7 +117,8 @@ app.controller('MainCtrl', [
                                         },
                                         points: {
                                             show: true
-                                        }
+                                        },
+                                        color: "#191970",
                                     },
                                     axisLabels: {
                                         show: true
@@ -138,7 +141,8 @@ app.controller('MainCtrl', [
                                         axisLabelPadding: 5
                                     },
                                     grid: {
-                                        color: "#800"
+                                        color: "#800",
+                                        backgroundColor: "#FFE4E1",
                                     },
                                 };
                             }
@@ -153,7 +157,8 @@ app.controller('MainCtrl', [
                                         },
                                         points: {
                                             show: true
-                                        }
+                                        },
+                                        color: "#2F4F4F",
                                     },
                                     axisLabels: {
                                         show: true
@@ -176,7 +181,8 @@ app.controller('MainCtrl', [
                                         axisLabelPadding: 5
                                     },
                                     grid: {
-                                        color: "#800"
+                                        color: "#800",
+                                        backgroundColor: "lightyellow",
                                     },
                                 };
                             }
@@ -192,6 +198,7 @@ app.controller('MainCtrl', [
                                         points: {
                                             show: true
                                         },
+                                        color: "#2F4F4F",
                                     },
                                     axisLabels: {
                                         show: true
@@ -214,7 +221,8 @@ app.controller('MainCtrl', [
                                         axisLabelPadding: 5
                                     },
                                     grid: {
-                                        color: "#800"
+                                        color: "#800",
+                                        backgroundColor: "lightyellow",
                                     },
                                 };
                             }
